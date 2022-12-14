@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  text-align: center;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.about-section p{
+    color: #fff;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+    <ul>
+        <li><a href="Hemsidan.html" class="Back-to-home">Back to Home</a></li>
+    </ul>
+
+<div class="about-section">
+  <h1>About Us and our Employees!</h1><br>
+  <p>We have 2 Employees, 1 Sustainability Manager and the company manager Nicklas.</p>
+  <p>Nicklas created this company 6 years ago in may 2016, and its already a million dollor buisness.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="./images/Elias.png.jpg" alt="Elias" style="width:50%">
+      <div class="container">
+        <h2>Elias ING</h2>
+        <p class="title">Employee</p>
+        <p>Elias is Emplyoee, he has worked with us for 3 years!</p>
+        <p>Elias.ingloff@elev.ga.ntig.se</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="./images/Gustav.png.jpg "alt="Gustav" style="width:100%">
+      <div class="container">
+        <h2>Gustav ALH</h2>
+        <p class="title">Sustainability Manager</p>
+        <p>Gustav are our Sustainability Manager and have worked with us for 5 years!</p>
+        <p>Gustav.Alstedht@elev.ga.ntig.se</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="./images/IMG_2439[345].JPG" alt="Oliver" style="width:50%">
+      <div class="container">
+        <h2>Oliver IVA</h2>
+        <p class="title">Employee</p>
+        <p>Oliver is one of our employees, and he have worker with us for 2 years!</p>
+        <p>Oliver.ivarsson@elev.ga.ntig.se</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
